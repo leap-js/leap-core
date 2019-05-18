@@ -1,7 +1,7 @@
 const CONFIG_FOLDER = "/src/main/resources/";
 const CONFIG_FILE = "application-";
 
-class ConfigurationLoader {
+class EnvironmentLoader {
 
     constructor() {
         this.defaultConfiguration = loadDefaultConfiguration();
@@ -13,7 +13,7 @@ class ConfigurationLoader {
     }
 }
 
-module.exports = ConfigurationLoader;
+module.exports = EnvironmentLoader;
 
 function resolveEnvironment() {
     const project = process.env.GCLOUD_PROJECT;
