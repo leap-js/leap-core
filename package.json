@@ -1,0 +1,30 @@
+{
+  "name": "leap-core",
+  "version": "0.0.1",
+  "description": "TBD",
+  "url": "https://github.com/gianisegatto/leap-core",
+  "license": "UNLICENSED",
+  "files": [
+    "src/",
+    "index.js"
+  ],
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gianisegatto/leap-core"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "eslint": "^5.9.0",
+    "eslint-plugin-promise": "^4.0.1",
+    "mocha": "^6.1.4",
+    "nyc": "^14.1.1",
+    "sinon": "^7.1.1"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/eslint ./src/main/node/*; mocha ./src/test --recursive",
+    "coverage": "nyc --reporter=text --all mocha ./src/test --recursive",
+    "eslint": "./node_modules/.bin/eslint ./src/main/node/*"
+  }
+}

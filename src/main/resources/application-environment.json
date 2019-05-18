@@ -1,0 +1,6 @@
+{
+  "applicationName": "test-environment",
+  "database": {
+    "host": "testhost"
+  }
+}
