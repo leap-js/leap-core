@@ -1,5 +1,8 @@
 Welcome to leap core!
 ===================
+I'm here to provide to the leap stack the core classes to be used among the leap framework.
+
+You don't have much advantage of using only this module as a dependency and it should be more an internal module.
 
 My stack is based on:
 -------------
