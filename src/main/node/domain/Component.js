@@ -1,7 +1,8 @@
 class Component {
     
-    constructor(name, fullPath, preInstance, params) {
-        this.name = name;
+    constructor(className, fileName, fullPath, preInstance, params) {
+        this.name = className;
+        this.fileName = fileName;
         this.fullPath = fullPath;
         this.preInstance = preInstance;
         this.params = params;
@@ -12,6 +13,10 @@ class Component {
 
     getName() {
         return this.name;
+    }
+
+    getFileName() {
+        return this.fileName;
     }
 
     getFullPath() {
