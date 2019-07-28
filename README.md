@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/gianisegatto/leap-core.svg?branch=master)](https://travis-ci.org/gianisegatto/leap-core)
+
 Welcome to leap core!
 ===================
 I'm here to provide to the leap stack the core classes to be used among the leap framework.
