@@ -1,4 +1,4 @@
-const CONFIG_FOLDER = "/src/main/resources/";
+const CONFIG_FOLDER = "/main/resources/";
 const CONFIG_FILE = "application-";
 
 class EnvironmentLoader {
