@@ -4,7 +4,7 @@ const CONFIG_FILE = "application-";
 class EnvironmentLoader {
 
     constructor(root) {
-        this.root = process.cwd();
+        this.root = process.cwd() + "/src";
         if (root) {
             this.root = root;
         }
